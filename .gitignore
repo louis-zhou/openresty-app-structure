@@ -1,5 +1,6 @@
 #runtime file
 conf/nginx.conf
+conf/.env_val
 logs/*
 
 # Compiled Lua sources
