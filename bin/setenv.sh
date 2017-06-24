@@ -16,4 +16,6 @@ if [[ ! -r $org_nginx_conf ]]; then
 	exit 1
 fi
 
+export ENV_CONF_VALUE=$env_val
+
 cat $org_nginx_conf > "$APP_HOME/conf/nginx.conf"
